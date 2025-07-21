@@ -25,6 +25,7 @@ body {
 
 .top {
   display: flex;
+  align-items: center;
 }
 
 .right {
@@ -50,8 +51,6 @@ body {
 }
 
 .header {
-  display: flex;
-  align-items: center;
   font-size: larger;
   font-weight: bold;
 }
