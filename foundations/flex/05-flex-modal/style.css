@@ -23,11 +23,6 @@ body {
   display: flex;
 }
 
-.top {
-  display: flex;
-  align-items: center;
-}
-
 .right {
   display: flex;
   flex-direction: column;
@@ -53,6 +48,8 @@ body {
 .header {
   font-size: larger;
   font-weight: bold;
+  display: flex;
+  align-items: center;
 }
 
 .close-button {
