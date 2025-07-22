@@ -5,7 +5,18 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+} 
 
 .header, .footer {
   display: flex;
@@ -30,6 +41,7 @@ img {
 button {
   font-family: Roboto, sans-serif;
   border: none;
+  padding: 8px;
   border-radius: 8px;
   background: #eee;
 }
