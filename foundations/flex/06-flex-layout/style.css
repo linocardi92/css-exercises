@@ -21,7 +21,7 @@ body {
 .header, .footer {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 10px 20px;
 }
 
 .footer {
